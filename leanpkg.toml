@@ -1,0 +1,8 @@
+[package]
+name = "digraphs"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.23.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "91f8e687831067585e6f1e368a1bc30281df3f47"}
